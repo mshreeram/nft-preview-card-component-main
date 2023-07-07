@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  background-color: hsl(217, 54%, 11%);
+  font-weight: 300;
+}
+
+.title {
+  padding: 16px 0;
+  font-weight: 400;
+  color: White ;
+}
+
+.text {
+  line-height: 1.5;
+  padding-bottom: 18px;
+  font-size: 15px;
+}
+
+.card {
+  width: 290px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.equilibrium-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.extra-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  font-size: 12px;
+}
+
+.avatar {
+  width: 28px;
+}
+
+.creation {
+  padding-top: 14px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.created-by {
+  padding-left: 12px;
+  font-size: 14px;
+}
+
+.balance, .days {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 400;
+}
+
+.balance {
+  color: #00FFF8;
+}
+
+.days {
+  color: #8BACD9;
+}
+
+hr {
+  color: hsl(215, 32%, 27%);
+}
+
+.name {
+  color: white;
+}
+
+.title:hover, .name:hover {
+  color: #00FFF8;
+  cursor: pointer;
+}
+
+.equilibrium-img:hover {
+  filter: opacity(0.5) drop-shadow(0 0 brown);
+  cursor: pointer;
+}
